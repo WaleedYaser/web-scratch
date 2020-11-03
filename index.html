@@ -3,6 +3,35 @@
 <html>
 <header>
   <title>Web Scratch</title>
+  <style>
+    h1 {
+      color: blueviolet;
+      font-family: verdana;
+      font-size: 300%;
+    }
+    h2 {
+      color: burlywood;
+    }
+    p {
+      color: chocolate;
+      font-family: courier;
+      font-size: 160%;
+      border: 2px solid powderblue;
+      padding: 30px;
+      margin: 50px;
+    }
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    a:active, a:hover {
+      background-color: red;
+    }
+  </style>
 </header>
 
 <body>
@@ -21,12 +50,46 @@
   <hr>
 
   <pre>
-    My Bonnie lies over the ocean.
-    My Bonnie lies over the sea.
+    <b>My Bonnie lies over the ocean.</b>
+    <strong>My Bonnie lies over the sea.</strong>
 
-    My Bonnie lies over the ocean.
-    Oh, bring back my Bonnie to me.
+    <i>My Bonnie lies over the ocean.</i>
+    <em>Oh, bring back my Bonnie to me.</em>
+
+    <small>My Bonnie lies over the ocean.</small>
+    <mark>My Bonnie lies over the sea.</mark>
+
+    <del>My Bonnie lies over the ocean.</del>
+    <ins>Oh, bring back my Bonnie to me.</ins>
   </pre>
+
+  <p>Here is a quote from WWF's website</p>
+  <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+  </blockquote>
+
+  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+  <p>The <abbr title="World Health organization">WHO</abbr> was founded in 1948.</p>
+
+  <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+  <bdo dir="rtl">This text will be written from right to left</bdo><br>
+
+  <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools</a>
+
+  <button onclick="document.location='https://www.google.com/'"">Google</button>
+
+  <address>
+    Written by Waleed Yaser.<br>
+    Visit us at:<br>
+    Example.com<br>
+    Mansoura, Egypt<br>
+  </address>
 
 </body>
 
